@@ -3,8 +3,8 @@ const TypetalkStrategy = require("passport-typetalk").Strategy,
     express = require("express"),
     passport = require("passport");
 
-var app = express(),
-    port = 3000;
+const PORT = 3000,
+    app = express();
 
 passport.use(new TypetalkStrategy({
     "callbackURL": "http://localhost:3000/auth/typetalk/callback",
@@ -57,4 +57,4 @@ app.get(
     }
 );
 
-app.listen(port);
+app.listen(PORT);
