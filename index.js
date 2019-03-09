@@ -16,11 +16,11 @@ passport.use(new TypetalkStrategy({
     ]
 }, (accessToken, refreshToken, profile, cb) => cb(null, profile)));
 
-passport.serializeUser(function serializeUser (user, cb) {
+passport.serializeUser((user, cb) => {
     cb(null, user);
 });
 
-passport.deserializeUser(function deserializeUser (obj, cb) {
+passport.deserializeUser((obj, cb) => {
     cb(null, obj);
 });
 
