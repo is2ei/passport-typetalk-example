@@ -23,5 +23,7 @@ $ npm install
 ### Run
 
 ```shell
-$ node index.js
+$ node .
 ```
+
+Open http://localhost:3000
