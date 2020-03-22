@@ -3,11 +3,25 @@ passport-typetalk-example
 
 ## Usage
 
-```
+### Install
+
+```shell
 $ git clone git@github.com:is2ei/passport-typetalk-example.git
 $ cd passport-typetalk-example
 $ npm install
-$ export TYPETALK_CLIENT_ID={YOUR_TYPETALK_CLIENT_ID}
-$ export TYPETALK_CLIENT_SECRET={YOUR_TYPETALK_CLIENT_SECRET}
+```
+
+### Set config
+
+```json
+{
+    "clientID": "TYPETALK_CLIENT_ID",
+    "clientSecret": "TYPETALK_CLIENT_SECRET"
+}
+```
+
+### Run
+
+```shell
 $ node index.js
 ```
