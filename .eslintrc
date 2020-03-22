@@ -1,13 +1,14 @@
 {
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module"
+    },
     "env": {
         "node": true,
         "mocha": true
     },
     "globals": {
         "expect": true
-    },
-    "parserOptions": { 
-        "sourceType": "module" 
     },
     "plugins": [
         "mocha"
