@@ -1,0 +1,13 @@
+name: Dummy
+
+on: pull_request
+
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: satoryu/typetalk-notify@master
+        with:
+          token: ${{ secrets.TYPETALK_TOKEN }}
+          topic_id: ${{ secrets.TYPETALK_TOPIC_ID }}
+          message: "${{ github.repository }} ${{ github.ref }} has been released :tada: :white_flower:"
