@@ -11,7 +11,7 @@ $ cd passport-typetalk-example
 $ npm install
 ```
 
-### Set config
+### Set config file
 
 ```json
 {
